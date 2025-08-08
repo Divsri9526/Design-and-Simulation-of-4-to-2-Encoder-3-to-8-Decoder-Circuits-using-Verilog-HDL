@@ -22,10 +22,10 @@ A digital circuit that expands a 3-bit binary input into one of 8 output lines, 
 ## 📂 File Structure
 | File | Description |
 |------|-------------|
-| `encoder_4to2.v` | 16-bit ALU module |
-| `encoder_4to2_tb.v` | Testbench for 16-bit ALU |
-| `decoder_3to8.v` | 32-bit ALU module |
-| `decoder_3to8_tb.v` | Testbench for 32-bit ALU |
+| `encoder_4to2_design.sv` | 16-bit ALU module |
+| `encoder_4to2_tb.sv` | Testbench for 16-bit ALU |
+| `decoder_3to8_design.sv` | 32-bit ALU module |
+| `decoder_3to8_tb.sv` | Testbench for 32-bit ALU |
 | `decoder_waveform.png` | Simulation results (images) |
 | `encoder_waveform.png` | Simulation results (images) |
 
