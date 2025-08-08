@@ -19,13 +19,15 @@ A digital circuit that expands a 3-bit binary input into one of 8 output lines, 
 
 🧪 All modules are verified through testbenches and produce correct outputs for all possible input combinations.
 
-## 📁 Project Structure
-├── encoder_4to2.v # 4-to-2 encoder module
-├── encoder_4to2_tb.v # Testbench for encoder
-├── decoder_3to8.v # 3-to-8 decoder module
-├── decoder_3to8_tb.v # Testbench for decoder
-└── README.md # Project documentation
-
+## 📂 File Structure
+| File | Description |
+|------|-------------|
+| `encoder_4to2.v` | 16-bit ALU module |
+| `encoder_4to2_tb.v` | Testbench for 16-bit ALU |
+| `decoder_3to8.v` | 32-bit ALU module |
+| `decoder_3to8_tb.v` | Testbench for 32-bit ALU |
+| `decoder_waveform.png` | Simulation results (images) |
+| `encoder_waveform.png` | Simulation results (images) |
 
 ---
 
